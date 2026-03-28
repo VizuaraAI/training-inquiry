@@ -104,7 +104,7 @@
         .field { margin-bottom: 20px; }
         .field label { display: block; font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
         .field label .required { color: var(--accent); margin-left: 2px; }
-        .field input, .field select, .field textarea {
+        .field input:not([type="checkbox"]), .field select, .field textarea {
             width: 100%; padding: 13px 16px; background: var(--input-bg);
             border: 1.5px solid var(--border); border-radius: 10px;
             color: var(--text); font-size: 15px; font-family: inherit;
