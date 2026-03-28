@@ -29,15 +29,15 @@
             line-height: 1.5;
         }
 
-        .nav {
+        .hero-logo {
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 20px 24px;
-            gap: 12px;
+            gap: 14px;
+            margin-bottom: 24px;
         }
-        .nav img { width: 44px; height: 44px; }
-        .nav-brand { font-size: 20px; font-weight: 700; color: var(--text); letter-spacing: -0.02em; }
+        .hero-logo img { width: 56px; height: 56px; }
+        .hero-logo span { font-size: 28px; font-weight: 700; color: var(--text); letter-spacing: -0.02em; }
 
         .hero {
             min-height: 50vh;
@@ -180,12 +180,11 @@
 </head>
 <body>
 
-    <nav class="nav fade-up">
-        <img src="vizlogo.png" alt="Vizuara AI">
-        <span class="nav-brand">Vizuara AI</span>
-    </nav>
-
     <section class="hero">
+        <div class="hero-logo fade-up">
+            <img src="vizlogo.png" alt="Vizuara AI">
+            <span>Vizuara AI</span>
+        </div>
         <div class="hero-badge fade-up">Corporate Training</div>
         <h1 class="fade-up">The new satisfying way of <span class="highlight">Agentic Engineering</span></h1>
         <p class="fade-up">From AI strategy and transformation to production-grade engineering and team training, we'll help you build AI that works.</p>
